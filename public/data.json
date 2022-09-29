@@ -1,0 +1,44 @@
+[
+     {
+          "img": "https://onnitacademy.imgix.net/wp-content/uploads/2018/12/dbrack.jpg",
+          "title": "dumble",
+          "description": "Dumbbells typically offer a better range of motion than barbells, allowing you to build even more strength in the pectoral area. A quality dumbbell bench press will also spruce up those triceps and work the shoulder muscles as well. ",
+          "age": "20-30",
+          "time": 70
+     },
+     {
+          "img": "https://photos-us.bazaarvoice.com/photo/2/cGhvdG86cm9ndWU/1539a934-8c9b-5f93-bfe1-85c9b7fd22d5",
+          "title": "Dumbbells stand",
+          "description": "The dumbbell racks and weight trees can easily be placed together centred in the room or against a wall.",
+          "age": "18-25",
+          "time": 40
+     },
+     {
+          "img": "https://res.cloudinary.com/iconfitness/image/upload/dpr_3.0,f_auto,q_auto,w_500/v1/site--6/PFBE19720_1-44274.png",
+          "title": "Adjustable bench",
+          "description": "The adjustable bench is a very essential gym equipment to have in your Gym. It has a flat, incline and decline position where you can have entirely six several positions curves steady for a coalition grip",
+          "age": " 20-26",
+          "time": 48
+     },
+     {
+          "img": "https://www.xeniosusa.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/r/k/rkbrl01_8_/www.xeniosusa.com-Xenios-USA-34.jpg",
+          "title": "Barbell stand",
+          "description": "barbells are also another very important gym equipment. It is used in bodybuilding, weight  g, weightlifting. It has a very long bar. At both ends, some weights are attached. ",
+          "age": "20-25",
+          "time": 50
+     },
+     {
+          "img": "https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2020/11/Best_Exercise_Ball_Options-650x445.jpg",
+          "title": "Exercise ball",
+          "description": "The exercise or yoga ball is made with very soft elastic that is mainly a diameter of 35 to 85 centimetres. This hollow ball is filled with air. If you remove the valve stem the air pressure will get changed   air.",
+          "age": "15-30",
+          "time": 60
+     },
+     {
+          "img": "https://i.insider.com/5de52b55fd9db21fa248fc4a?width=700",
+          "title": "Treadmill",
+          "description": "The treadmill comes first in the gym equipment list. Because it is the most important equipment for all the gyms. There are so many types and a section of treadmills for single and multi-station gyms.",
+          "age": " 20-30",
+          "time": 45
+     }
+]
