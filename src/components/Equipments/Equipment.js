@@ -9,7 +9,7 @@ const Equipment = (props) => {
       
         
           <div className=''>
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "19rem" }}>
                 <img className='rounded m-3 mb-0 image' src={img} alt="" />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>

@@ -31,7 +31,13 @@ const Exercise = () => {
                     </div>
 
                     <div className=" equipments ">
-                        
+                         {
+                              equipments.map(equipment => <Equipment 
+                                   equipment={equipment}
+                                   handleCart={handleCart}
+                                   ></Equipment>)
+                         }
+
                     </div>
 
                </div>
