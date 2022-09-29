@@ -6,14 +6,14 @@
  .equipments{
      display: grid;
      grid-template-columns: repeat(3,1fr);
-     row-gap: 20px;
+     row-gap: 10px;
  }
  .card{
     height: 480px;
     border-radius: 10px;
  }
  .equipment-container{
-    margin: 50px;
+    margin: 90px;
  }
 
  .activities{
