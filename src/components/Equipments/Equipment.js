@@ -1,9 +1,9 @@
 import React from 'react';
-import './Equipment.css'
+ 
 
 
 const Equipment = (props) => {
-     const { title, time, img, description, age } = props.Equipment;
+     const { title, time, img, description, age } = props.equipment;
      return (
 
       
