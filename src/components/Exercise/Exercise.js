@@ -24,7 +24,7 @@ const Exercise = () => {
           <div className="exercise-container">
                <div className='equipment-container' >
                     <div className="logo pb-4">
-                         <img src={logo} alt="logo" height="80px" />
+                         <img src={logo} alt="logo" height="75px" />
                     </div>
                     <div className='title pb-3'>
                          <h4>Select today’s exercise</h4>
