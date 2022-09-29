@@ -16,7 +16,7 @@ const Equipment = (props) => {
                     <p className="card-text">{description.slice(0,100)}</p>
                     <h6>For Age: {age}</h6>
                     <h6>Time Required: {time} sec</h6>
-                    <button className='btn btn-primary'>Add to list</button>
+                    <button onClick={()=> props.handleCart(props.equipment)} className='btn btn-primary mt-3'>Add to list</button>
                 </div>
             </div>
         </div>
