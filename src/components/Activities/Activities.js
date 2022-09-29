@@ -18,11 +18,7 @@ const Activities = () => {
                               <h5>M.Bappy</h5>
                               <p>Rajshahi,Bangladesh</p>
                          </div>
-
-
                     </div>
-
-
 
                     {/* user details  */}
 
@@ -65,9 +61,7 @@ const Activities = () => {
 
                     </div>
 
-
                     {/* Exercise Details  */}
-
 
 
                     {/* Exercise Time  */}
@@ -100,9 +94,6 @@ const Activities = () => {
                     <div className='mt-5 text-center'>
                     <button type="button" class="btn btn-primary w-100">Activity Completed</button>
                     </div>
-
-                    
-
                </div>
 
           </div>
