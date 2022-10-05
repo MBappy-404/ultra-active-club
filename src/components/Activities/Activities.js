@@ -1,3 +1,5 @@
+
+import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -6,19 +8,24 @@ import './Activities.css'
 
 const Activities = (props) => {
 
-     const {exercise} = props;
+     const { exercise } = props;
      let total = 0;
-     
-     for(const product of exercise){
-           
+
+     for (const product of exercise) {
+
           total = total + product.time;
-          console.log(total);
-         
+          // console.log(total);
+
+
+     };
+    
+
+     const [time, setValue] = useState([]);
+     const handleBreakTime = (event) => {
+          const time = parseFloat(event.target.innerText)
+          setValue(time);
      }
 
-     const handleBreak = ()=>{
-
-     }
      const toastify = () => toast("Wow!! You have Done Your Activity Succesfully.");
 
      return (
@@ -64,16 +71,16 @@ const Activities = (props) => {
                     <div className='break bg d-flex bg  justify-content-between p-3 mt-4'>
 
                          <div>
-                              <button onClick={handleBreak} className='btn btn-light rounded-pill'>10s</button>
+                              <button onClick={(event) => handleBreakTime(event)} className='btn btn-light rounded-pill'>10s</button>
                          </div>
                          <div>
-                         <button  onClick={handleBreak} className='btn btn-light rounded-pill'>20s</button>
+                              <button onClick={(event) => handleBreakTime(event)} className='btn btn-light rounded-pill'>20s</button>
                          </div>
                          <div>
-                         <button onClick={handleBreak} className='btn btn-light rounded-pill'>30s</button>
+                              <button onClick={(event) => handleBreakTime(event)} className='btn btn-light rounded-pill'>30s</button>
                          </div>
                          <div>
-                         <button onClick={handleBreak} className='btn btn-light rounded-pill'>60s</button>
+                              <button onClick={(event) => handleBreakTime(event)} className='btn btn-light rounded-pill'>60s</button>
                          </div>
 
                     </div>
@@ -92,7 +99,7 @@ const Activities = (props) => {
                          <div>
                               <span>{total}sec</span>
                          </div>
-                    
+
                     </div>
 
                     {/* break time  */}
@@ -101,16 +108,16 @@ const Activities = (props) => {
                               <h6>Break time</h6>
                          </div>
                          <div>
-                              <span>{}0sec</span>
+                              <span>{time}sec</span>
                          </div>
-                    
+
                     </div>
 
 
                     {/* Activity Completed  */}
                     <div className='mt-5 text-center'>
-                    <button onClick={toastify}  type="button" class="btn btn-primary w-100">Activity Completed</button>
-                    <ToastContainer />
+                         <button onClick={toastify} type="button" class="btn btn-primary w-100">Activity Completed</button>
+                         <ToastContainer />
                     </div>
                </div>
 
